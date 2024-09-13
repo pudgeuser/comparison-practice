@@ -36,16 +36,16 @@ console.log(x < y && y < z); //true
 console.log(x > y && y > z); //false
 
 //OR
-let a = "Excited";
-let b = "Angry";
-let c = "Excited";
+let a = "Red";
+let b = "Black";
+let c = "Red";
 
 console.log(a === b || a === c); //true
 console.log(a === b || b === c); //false
 
 //NOT
-let isLight = true;
-let isDark = false;
+let isWhite = true;
+let isBlack = false;
 
 console.log(!isLight); //false
 console.log(!isDark);  //true
